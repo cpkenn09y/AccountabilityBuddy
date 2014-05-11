@@ -1,3 +1,3 @@
 class User < ActiveRecord::Base
-  attr_accessible :name, :points
+  include Clearance::User
 end
