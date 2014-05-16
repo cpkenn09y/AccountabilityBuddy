@@ -3,3 +3,7 @@
 .navbar-toggle {
   background-color: deepskyblue !important;
 }
+
+div#users {
+  text-align: center;
+}
