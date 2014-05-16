@@ -1,0 +1,12 @@
+%h1 See All the Users
+
+#users
+
+  %ul
+    - @users.each do |user|
+      %li
+        = link_to(user.email, user_path(user))
+        (
+        = user.points
+        points
+        )
