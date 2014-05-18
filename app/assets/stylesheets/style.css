@@ -4,6 +4,6 @@
   background-color: deepskyblue !important;
 }
 
-div#users {
+div.users-page {
   text-align: center;
 }
