@@ -1,0 +1,9 @@
+/* Overwriting Parts of Bootstrap CSS */
+
+.navbar-toggle {
+  background-color: deepskyblue !important;
+}
+
+div.users-page {
+  text-align: center;
+}
